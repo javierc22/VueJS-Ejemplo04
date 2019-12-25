@@ -11,7 +11,9 @@
 </head>
 <body>
    <div id="app" class="container mt-5">
-
+      <h3>{{ saludo }}</h3>
+      <button class="btn btn-primary" @click="saludo = 'Saludo cambiado :v'">Cambiar título</button>
+      <button class="btn btn-danger" @click="destruir()">Destruir instancia Vue</button>
    </div>
 
    <!-- development version, includes helpful console warnings -->
